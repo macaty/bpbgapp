@@ -30,7 +30,7 @@ jobs:
 
       - name: Clone BPB workjs
         run: |
-          wget -O origin.js https://raw.githubusercontent.com/macaty/am-cf-trojan/refs/heads/main/_worker.src.js
+          wget -O origin.js https://raw.githubusercontent.com/amclubs/am-cf-trojan/refs/heads/main/_worker.src.js
 
       - name: Obfuscate BPB worker js
         run: |
