@@ -30,7 +30,7 @@ jobs:
 
       - name: Clone BPB workjs
         run: |
-          wget -O origin.js https://raw.githubusercontent.com/yonggekkk/Cloudflare_vless_trojan/refs/heads/main/Trojan_workers_pages/trojan%E6%BA%90%E7%A0%81(%E8%AF%B7%E4%BD%BF%E7%94%A8%E4%B8%8A%E9%9D%A2%E7%9A%84_worker.js%EF%BC%8C%E6%9C%AC%E6%96%87%E4%BB%B6%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8%EF%BC%8C%E4%BB%85%E4%BE%9BDIY).js
+          wget -O origin.js https://raw.githubusercontent.com/macaty/Cloudflare_vless_trojan/refs/heads/main/Trojan_workers_pages/trojan.js
 
       - name: Obfuscate BPB worker js
         run: |
